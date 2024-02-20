@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.carre1 {
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.carre2 {
+    
+    width: 240px;
+    height: 240px;
+    border: 2px dashed green;
+
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.carre3 {
+    
+    width: 130px;
+    height: 130px;
+    border: 2px dotted blue;
+
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.rond {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50px;  
+    left: 50px;
+}
+
+.carre_vert {
+    
+    width: 400px;
+    height: 400px;
+    background-color: rgb(83, 238, 83);
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+.carre_noir_gauche {
+
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.carre_noir_droit {
+
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+
+.carre_noir_bas {
+
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
